@@ -1,4 +1,4 @@
-FROM php:7.1-fpm
+FROM php:7.1-fpm-alpine
 
 MAINTAINER Vincent Composieux <vincent.composieux@gmail.com>
 MAINTAINER Jos Ahrens <github@lynvie.com>

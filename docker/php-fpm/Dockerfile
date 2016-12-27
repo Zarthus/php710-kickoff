@@ -4,25 +4,25 @@ MAINTAINER Vincent Composieux <vincent.composieux@gmail.com>
 MAINTAINER Jos Ahrens <github@lynvie.com>
 
 # RUN apk add --update \
-#    php-fpm \
-#    php-apcu \
-#    php-curl \
-#    php-gd \
-#    php-iconv \
-#    php-imagick \
-#    php-json \
-#    php-intl \
-#    php-mcrypt \
-#    php-mysql \
-#    php-opcache \
-#    php-openssl \
-#    php-pdo \
-#    php-pdo_mysql \
-#    php-mysqli \
-#    php-pdo_pg \
-#    php-pgsql \
-#    php-xml \
-#    php-zlib
+#    php7-fpm \
+#    php7-apcu \
+#    php7-curl \
+#    php7-gd \
+#    php7-iconv \
+#    php7-imagick \
+#    php7-json \
+#    php7-intl \
+#    php7-mcrypt \
+#    php7-mysql \
+#    php7-opcache \
+#    php7-openssl \
+#    php7-pdo \
+#    php7-pdo_mysql \
+#    php7-mysqli \
+#    php7-pdo_pg \
+#    php7-pgsql \
+#    php7-xml \
+#    php7-zlib
 
 RUN rm -rf /var/cache/apk/* && rm -rf /tmp/*
 
